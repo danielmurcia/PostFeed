@@ -20,6 +20,7 @@ The Domain layer contains the models used around the app, the usecases that the 
 In the Data layer is represented by an external package (posts_client)that uses Retrofit to make API calls to get all remote data and to send usage logs as emails.
 
 ## Folder structure
+```
 ...
 |-- app/src/main/java/com.dnlm.postfeed 
 |   |-- domain
@@ -36,3 +37,4 @@ In the Data layer is represented by an external package (posts_client)that uses 
 |   |-- api
 |   |-- models
 ...
+```
