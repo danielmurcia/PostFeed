@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_posts">
+
+    <fragment
+        android:id="@+id/nav_posts"
+        android:name="com.dnlm.postfeed.presentation.posts.PostFeedFragment"
+        android:label="@string/posts"
+        tools:layout="@layout/fragment_posts" >
+        <action
+            android:id="@+id/action_post_selected"
+            app:destination="@id/nav_post_detail" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_post_detail"
+        android:name="com.dnlm.postfeed.presentation.post_detail.PostDetailFragment"
+        android:label="@string/post_detail"
+        tools:layout="@layout/fragment_post_detail" />
+
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.dnlm.postfeed.presentation.settings.SettingsFragment"
+        android:label="@string/settings"
+        tools:layout="@layout/fragment_settings" />
+</navigation>
