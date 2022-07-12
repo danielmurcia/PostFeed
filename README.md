@@ -21,17 +21,17 @@ In the Data layer is represented by an external package (posts_client)that uses 
 
 ## Folder structure
 ...
-|-- app/src/main/java/com.dnlm.postfeed
-|   |-- domain  
-|   |   |-- entities
-|   |   |-- usecases  
-|   |-- presentation  
+|-- app/src/main/java/com.dnlm.postfeed 
+|   |-- domain
+|   |   |-- entities 
+|   |   |-- usecases
+|   |-- presentation
 |   |   |-- <feature>
-|   |   |   |-- viewmodels
-|   |   |   |-- views   
-|   |   |   |-- <feature>Fragment.kt   
-|   |-- utils  
+|   |   |   |-- viewmodels 
+|   |   |   |-- views
+|   |   |   |-- <feature>Fragment.kt
+|   |-- utils
 |   |-- MainActivity.kt 
-|-- posts_client/src/main/java/com.dnlm.posts_client
-|   |-- api  
+|-- posts_client/src/main/java/com.dnlm.posts_client 
+|   |-- api
 |   |-- models
