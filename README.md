@@ -35,3 +35,4 @@ In the Data layer is represented by an external package (posts_client)that uses 
 |-- posts_client/src/main/java/com.dnlm.posts_client 
 |   |-- api
 |   |-- models
+...
