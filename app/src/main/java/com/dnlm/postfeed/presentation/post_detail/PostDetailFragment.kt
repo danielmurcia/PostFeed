@@ -67,7 +67,7 @@ class PostDetailFragment : Fragment(), OnMapReadyCallback {
                     .position(location)
                     .title("${address.street} - ${address.city}")
             )
-            map.moveCamera(CameraUpdateFactory.newLatLngZoom(location, 10F));
+            map.moveCamera(CameraUpdateFactory.newLatLng(location));
         }
     }
 }
