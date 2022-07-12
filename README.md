@@ -1,6 +1,13 @@
 # PostFeed
 Android project assessment submission for benshi.ai by Daniel Murcia
 
+## WORK IN PROGRESS
+Still pending:
+- Load more posts on scroll (pagination)
+- Email action logs
+- Load images
+- Make UI better looking
+
 ## Design pattern and project structure
 Implemented a Domain-Driven Design (DDD) where the project is separated in three main architectural layers: Presentation, Domain and Data. With these we can make our code more testable, scalable and maintainable by building the app around the domain layer.
 
