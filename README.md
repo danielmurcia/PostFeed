@@ -1,5 +1,5 @@
 # PostFeed
-Android project assessment submission for benshi.ai by Daniel Murcia
+PostFeed is a simple "master detail flow" Android project that consumes [Typicode's "JSON Place Holder" REST API](https://github.com/typicode/jsonplaceholder).
 
 ## WORK IN PROGRESS
 Still pending:
